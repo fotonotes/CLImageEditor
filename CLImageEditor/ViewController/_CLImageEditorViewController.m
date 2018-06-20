@@ -90,6 +90,7 @@ static const CGFloat kMenuBarHeight = 80.0f;
     else{
         rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(pushedFinishBtn:)];
     }
+    rightBarButtonItem.tintColor = [[UIColor alloc] initWithRed:217.0/255.0 green:77.0/255.0 blue:51.0/255.0 alpha:1.0];
     return rightBarButtonItem;
 }
 
